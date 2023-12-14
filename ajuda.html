@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>texte</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    #d4{
+        width: 50%;
+        padding: 50% auto;
+
+    }
+  </style>
+  <body>
+    <div id="d4";">
+      <p>
+        Primeira tentativa: Chute o número no meio do intervalo, ou seja, 50. <br> Se
+        o número que você chutou for o correto, você acertou na primeira
+        tentativa. <br> Caso contrário, o número que você está procurando é maior ou
+        menor do que 50. <br> A partir daqui, você pode reduzir pela metade o
+        intervalo de possíveis números a cada tentativa: Segunda tentativa: Se o
+        número que você está procurando for maior que 50, chute o meio do
+        intervalo superior (entre 51 e 100). Se for menor, chute o meio do
+        intervalo inferior (entre 1 e 49). Continue dividindo o intervalo
+        restante ao meio nas tentativas subsequentes até encontrar o número
+        correto. Com essa estratégia, a cada tentativa você elimina metade dos
+        números restantes. Isso é conhecido como busca binária e garante que
+        você acertará o número em no máximo 7 tentativas, já que 2^7 = 128, o
+        que é suficiente para cobrir um intervalo de 1 a 100.
+      </p>
+    </div>
+  </body>
+</html>
