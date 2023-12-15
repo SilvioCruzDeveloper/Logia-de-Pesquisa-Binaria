@@ -23,7 +23,7 @@ Este é um simples jogo "Adivinhe o Número" desenvolvido em HTML, CSS e JavaScr
 Se você deseja contribuir para este projeto, sinta-se à vontade para abrir problemas, sugerir melhorias ou enviar solicitações de pull.
 
 ## Autor
-[Seu Nome]
+[Silvio Cruz]
 
 ## Licença
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
